@@ -3,7 +3,7 @@ const config = require("./config");
 var _ = require("lodash");
 
 var client = null;
-const index = "cari_tests*";
+const index = process.env.elasticsearch_index;
 
 exports.initialize = async () => {
     if (!client) {

@@ -1,0 +1,274 @@
+{
+    "hits": [
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "30e31da42261bd18a47f1b1d580adfaede11a934",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "Alcohol",
+                    "Junk food",
+                    "Smoke",
+                    "Poor sleep"
+                ],
+                "question": "What is the worst habit for your health?",
+                "correct_answer": "Smoke"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "c961c4ba95c7087bd99e496843cbd939f4ebc45f",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "Alcohol",
+                    "Not exercise",
+                    "Smoke",
+                    "Junk food"
+                ],
+                "question": "Which one leads to liver disease?",
+                "correct_answer": "Alcohol"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "ec5fa17b6f91a13eace7cf1d66f9ee6d073489dd",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "Pregnancy",
+                    "Anorexia",
+                    "Infertility",
+                    "Overweight"
+                ],
+                "question": "Which one is an illness related to smoking?",
+                "correct_answer": "Infertility"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "e30a96faa74f742b45034a9aba6a3f2d63ccf007",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "Muscle building",
+                    "Money making",
+                    "Healthy lifestyle",
+                    "Sedentarism"
+                ],
+                "question": "What is the main cause of spending too much time in front of the TV?",
+                "correct_answer": "Sedentarism"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "61b4516a1eb1d15d0145df4fb845681ae4011465",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "Eating disorder",
+                    "Sleeping disorder",
+                    "Backache",
+                    "A throat sore"
+                ],
+                "question": "Too much caffeine can lead to ___________.",
+                "correct_answer": "Sleeping disorder"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "1125be257569df440a03ee849d5bed01b0f9e131",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "A lot of people is invited by them to the party",
+                    "A lot of people are invited by them to the party",
+                    "The party was invited to people",
+                    "A lot of people was invited to the party."
+                ],
+                "question": "Turn into passive voice: They invite a lot of people to the party.",
+                "correct_answer": "A lot of people are invited by them to the party"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "d7c5aef688a792e9c930770d1c3d10475c446818",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "The Wolf is eaten by the princess",
+                    "The princess ate the Wolf",
+                    "The princess is eaten by the Wolf",
+                    "The princess was eaten by the Wolf"
+                ],
+                "question": "The Wolf ate the princess.",
+                "correct_answer": "The princess was eaten by the Wolf"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "fd21bc5770aeed0dfed8ebd80c5260b064beb7b8",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "will speak",
+                    "speaks",
+                    "is spoken",
+                    "is speaken"
+                ],
+                "question": "English __________________ in many countries.",
+                "correct_answer": "is spoken"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "b781e89cd5ef3620290d1a63c9f9822a294a9764",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "were not written",
+                    "were written",
+                    "was not written",
+                    "are written"
+                ],
+                "question": "This song __________________ by John Lennon.",
+                "correct_answer": "was not written"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "f5ad3e0a5623f9bdd59ebaad304ff59cd042984d",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "Guernica painted Picasso",
+                    "Guernica was painted by Picasso",
+                    "Guernica is painted by Picasso",
+                    "Guernica Picasso was painted"
+                ],
+                "question": "Turn into passive voice: Picasso painted Guernica.",
+                "correct_answer": "Guernica was painted by Picasso"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "49a1e7e982a97a7063f0d981eb24535862406720",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "By",
+                    "On",
+                    "At",
+                    "In"
+                ],
+                "question": "I have been living ……… London.",
+                "correct_answer": "In"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "c4d6c1122a89049a7ab7e21d6730011a7d36175a",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "On",
+                    "In",
+                    "By",
+                    "At"
+                ],
+                "question": "Wait for me ……… the bus station.",
+                "correct_answer": "At"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "360b99758752d181194431401dbf86799f18c940",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "At",
+                    "On",
+                    "By",
+                    "In"
+                ],
+                "question": "You have got a fly ………. Your back.",
+                "correct_answer": "On"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "a0159dcef0824e196776285701f8d022ab7a5ed4",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "Then",
+                    "At",
+                    "In",
+                    "On"
+                ],
+                "question": "She was …….. the garden all evening.",
+                "correct_answer": "In"
+            }
+        },
+        {
+            "_index": "index_name",
+            "_type": "_doc",
+            "_id": "ca7db083954e06718dbf11b388a5ec560a89444e",
+            "_score": 4.771143,
+            "_source": {
+                "subject": "Technical English",
+                "topic": "Reinforcement exercise U10",
+                "answers": [
+                    "By",
+                    "In",
+                    "On",
+                    "At"
+                ],
+                "question": "See you tomorrow …….. the meeting.",
+                "correct_answer": "At"
+            }
+        }
+    ]
+}

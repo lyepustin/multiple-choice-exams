@@ -1,0 +1,81 @@
+const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+    mode: "jit",
+    purge: ["./(pages|components|sections)/**/*.{js,ts,jsx,tsx}"],
+    darkMode: false,
+    theme: {
+        fill: (theme) => ({
+            "light-0": theme("colors.light-0"),
+            "light-1": theme("colors.light-1"),
+            "light-2": theme("colors.light-2"),
+            "light-3": theme("colors.light-3"),
+            "light-4": theme("colors.light-4"),
+            "light-5": theme("colors.light-5"),
+            "light-6": theme("colors.light-6"),
+            "light-7": theme("colors.light-7"),
+            "light-8": theme("colors.light-8"),
+        }),
+        screens: {
+            sm: "0px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+            "2xl": "1536px",
+        },
+        opacity: {
+            ...defaultTheme.opacity,
+        },
+        fontFamily: {
+            roboto: ["Roboto"],
+        },
+        fontSize: {
+            h0: "3rem",
+            h1: "2.5rem",
+            h2: "2rem",
+            h3: "1.5rem",
+            h4: "1.2rem",
+            p1: "1rem",
+            p2: "0.9rem",
+            p3: "0.8rem",
+            p4: "0.7rem",
+            p5: "0.6rem",
+            p6: "0.5rem",
+            p7: "0.4rem",
+        },
+        fontWeight: {
+            bold: 600,
+            semibold: 500,
+            normal: 400,
+            light: 300,
+        },
+        colors: {
+            ...colors,
+            "light-0": "#FFFFFF",
+            "light-1": "#F2F7FF",
+            "light-2": "#C6DAFC",
+            "light-3": "#7BAAF7",
+            "light-4": "#3367D6",
+            "light-5": "#2750B4",
+            "light-6": "#1B3981",
+            "light-7": "#10224D",
+            "light-8": "#1A56D6",
+            cover: "#F3F3F3",
+            title: "#000",
+            subtitle: "#313131",
+            grey: "#605E5F",
+            lightgrey: "#999",
+            hover: "#FAFAFA",
+            success: "#6FCEA1",
+            error: "#E63946",
+        },
+        extend: {},
+    },
+    variants: {
+        extend: {
+            animation: ["motion-safe"],
+        },
+    },
+    plugins: [],
+};

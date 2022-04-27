@@ -45,27 +45,18 @@ export default function Home() {
                     <div key={subject}>
                         <p className="sm:text-h2 md:text-h4 mb-2">{subject}</p>
                         {_.map(topics, (topic) => (
-                            <label
-                                key={topic}
-                                className="flex items-center cursor-pointer"
-                            >
-                                <input
-                                    type="checkbox"
-                                    onClick={() => selectTopic(subject, topic)}
-                                />
-                                <p className="sm:text-p1 md:text-p3 ml-2 pb-px">
-                                    {topic}
-                                </p>
+                            <label key={topic} className="flex items-center cursor-pointer">
+                                <input type="checkbox" onClick={() => selectTopic(subject, topic)} />
+                                <p className="sm:text-p1 md:text-p3 ml-2 pb-px">{topic}</p>
                             </label>
                         ))}
                     </div>
                 ))}
-                <button
-                    onClick={handleFormSubmit}
-                    className="mt-3 rounded shadow py-1 px-2 bg-light-3"
-                >
-                    <p className="text-white">Generar Test</p>
-                </button>
+                <div class="flex flex-row justify-center items-center">
+                    <button onClick={handleFormSubmit} className="mt-3 rounded shadow py-1 px-2 bg-light-3">
+                        <p className="text-white">Create Test</p>
+                    </button>
+                </div>
             </div>
         </div>
     );

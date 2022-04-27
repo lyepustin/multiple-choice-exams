@@ -29,9 +29,9 @@ export default function Test() {
     const checkTest = () => {
         if (checkMode == false) {
             alert(
-                `Has acertado ${
+                `You got  ${
                     _.filter(testData, ({ question, correct_answer }) => result[question] == correct_answer).length
-                } preguntas`
+                } question correct. 😘👍🏼`
             );
         }
         setCheckMode(!checkMode);
@@ -44,7 +44,7 @@ export default function Test() {
         <div className="w-screen flex justify-center items-center py-10">
             <div className="md:rounded md:shadow w-[1000px] max-w-80 p-5 flex flex-col">
                 <p className="hover:underline text-h3 cursor-pointer ml-auto text-light-3" onClick={goBack}>
-                    Volver al menú
+                    Back to menu
                 </p>
                 {_.map(testData, ({ question, answers, correct_answer }) => (
                     <div key={question} className="mb-5">
@@ -65,7 +65,7 @@ export default function Test() {
                     </div>
                 ))}
                 <button onClick={checkTest} className="mt-3 rounded shadow py-1 px-2 bg-light-3">
-                    <p className="text-white">Corregir Test</p>
+                    <p className="text-white">Correct Test</p>
                 </button>
             </div>
         </div>
